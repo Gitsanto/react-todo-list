@@ -1,0 +1,24 @@
+.sidebar {
+  width: 25%;
+  /* height: 25vh; experiment with this value, try changing to 110vh */
+  min-height: 200px;
+  overflow: auto;
+  position: -webkit-sticky;
+  /* position: sticky; */
+  top: 5%;
+  background-color: rebeccapurple;
+  color: white;
+}
+
+.sidebar-subitem-text {
+  font-size: 0.8rem;
+}
+
+.footer {
+  background-color: gray;
+  /* width: 100vw; */
+  width: 100%;
+  /* margin-bottom: 0; */
+  flex-shrink: 0;
+  align-self: flex-end;
+}
